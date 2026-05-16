@@ -13,3 +13,9 @@ impl Page {
         }
     }
 }
+
+impl Default for Page {
+    fn default() -> Self {
+        Self::new()
+    }
+}
